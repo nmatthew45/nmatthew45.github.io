@@ -1,17 +1,16 @@
 import "./App.css";
-import picture from "./images/me.jpeg";
-import Image from "react-bootstrap/Image";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Picture from "./components/Picture";
 
 function App() {
   return (
     <div>
-      <div className="pictureDiv">
-        <Image className="picture" src={picture} roundedCircle />
-      </div>
+      <Picture />
       <h1>Matthew Nguyen</h1>
       <p>React Developer based in Westminster, California</p>
       <Contact />
+      <Footer />
     </div>
   );
 }
