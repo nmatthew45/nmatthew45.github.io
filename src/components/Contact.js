@@ -1,4 +1,3 @@
-import "./css/Contact.css";
 import resume from "../images/resume.pdf";
 import Container from "react-bootstrap/Container";
 

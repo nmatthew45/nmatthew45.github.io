@@ -1,17 +1,22 @@
-import "./components/css/App.css"
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Picture from "./components/Picture";
+import "./components/css/App.css";
+
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
+import Navigationbar from "./components/Navbar";
 import Info from "./components/Info";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
-      <Picture />
-      <Info />
-      <Contact />
+    <BrowserRouter>
+      <Navigationbar />
+      <Switch>
+        <Route exact path="/" component={Info} />
+        <Route path="/projects" component={Projects} />
+      </Switch>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 
