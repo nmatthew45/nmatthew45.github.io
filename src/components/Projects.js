@@ -1,8 +1,8 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 function Projects() {
   return (
-    <Container fluid>
+    <Container fluid style={{ flex: "1" }}>
       <h1>TODO</h1>
     </Container>
   );

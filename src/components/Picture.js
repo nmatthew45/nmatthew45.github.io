@@ -1,3 +1,4 @@
+import "./css/Picture.css";
 import picture from "../images/me.jpeg";
 import Image from "react-bootstrap/Image";
 

@@ -1,13 +1,3 @@
-.myName {
-  text-align: center;
-
-}
-
-.myBio {
-  text-align: center;
-
-}
-
 .pictureDiv {
   padding-top: 200px;
   padding-bottom: 25px;
@@ -16,8 +6,4 @@
 
 .pictureImg {
   height: 200px;
-}
-
-.contactIcon {
-  padding: 20px;
 }
