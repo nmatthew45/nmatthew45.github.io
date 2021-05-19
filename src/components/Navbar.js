@@ -5,7 +5,7 @@ import resume from "../images/resume.pdf";
 
 function Navigationbar() {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="dark" variant="dark" style={{position: "relative"}}>
       <Navbar.Brand href="/">Matthew Nguyen</Navbar.Brand>
       <Nav>
         <Nav.Item>
