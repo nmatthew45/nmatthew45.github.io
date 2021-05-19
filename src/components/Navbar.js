@@ -1,9 +1,9 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-import { Link } from "react-router-dom";
-
 import resume from "../images/resume.pdf";
+
+import { Link } from "react-router-dom";
 
 function Navigationbar() {
   return (
@@ -11,13 +11,20 @@ function Navigationbar() {
       <Navbar.Brand href="/">Matthew Nguyen</Navbar.Brand>
       <Nav>
         <Nav.Item>
-          <Nav.Link target="_blank" rel="noreferrer" href={resume}>
+          <Nav.Link
+            style={{ color: "white" }}
+            target="_blank"
+            rel="noreferrer"
+            href={resume}
+          >
             Resume
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link>
-            <Link to="/projects">Projects</Link>
+            <Link style={{ color: "white" }} to="/projects">
+              Projects
+            </Link>
           </Nav.Link>
         </Nav.Item>
       </Nav>
