@@ -7,9 +7,7 @@ function Projects() {
 
   return (
     <Container fluid style={style}>
-      <h1>TODO</h1>
-      <h1>TODO</h1>
-      <h1>TODO</h1>
+      {/* TODO */}
     </Container>
   );
 }
