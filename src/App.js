@@ -11,10 +11,8 @@ function App() {
     <Router>
       <div className="appStyle">
         <Navigationbar />
-        <Switch>
           <Route exact path="/" component={Home} />
           {/* <Route path="/projects" component={Projects} /> */}
-        </Switch>
         <Footer />
       </div>
     </Router>
