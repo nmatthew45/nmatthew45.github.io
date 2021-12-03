@@ -1,0 +1,6 @@
+.appStyle {
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
